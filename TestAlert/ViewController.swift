@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        let alert = UIAlertController(title: title, message: "😙🎹", preferredStyle: .actionSheet)
+        let alert = UIAlertController(title: "🎼🥁", message: "😙🎹", preferredStyle: .actionSheet)
         let action = UIAlertAction(title: "😆😆", style: .default, handler: nil)
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
